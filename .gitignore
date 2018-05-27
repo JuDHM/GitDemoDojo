@@ -1,0 +1,62 @@
+Last login: Sat May 26 20:13:58 on ttys000
+Juans-MacBook-Air:~ juandhm$ cd Documents/Git_Projects/
+Juans-MacBook-Air:Git_Projects juandhm$ ls
+Juans-MacBook-Air:Git_Projects juandhm$ ls
+Dojo
+Juans-MacBook-Air:Git_Projects juandhm$ cd Dojo/
+Juans-MacBook-Air:Dojo juandhm$ ls
+Juans-MacBook-Air:Dojo juandhm$ git clone https://github.com/JuDHM/GitDemoDojo.git
+Cloning into 'GitDemoDojo'...
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+warning: unable to access '/Users/juandhm/.config/git/attributes': Permission denied
+Juans-MacBook-Air:Dojo juandhm$ Jd92090762127
+-bash: Jd92090762127: command not found
+Juans-MacBook-Air:Dojo juandhm$ git config --global user.name "JuDHM"
+warning: unable to access '/Users/juandhm/.config/git/config': Permission denied
+Juans-MacBook-Air:Dojo juandhm$ sudo su
+Password:
+sh-3.2# exit
+exit
+Juans-MacBook-Air:Dojo juandhm$ git config --global user.name "JuDHM"
+Juans-MacBook-Air:Dojo juandhm$ git config --global user.email "juandhm00@gmail.com"
+Juans-MacBook-Air:Dojo juandhm$ ls
+GitDemoDojo
+Juans-MacBook-Air:Dojo juandhm$ cd GitDemoDojo/
+Juans-MacBook-Air:GitDemoDojo juandhm$ ls
+README.md	pom.xml		src		target		test-output
+Juans-MacBook-Air:GitDemoDojo juandhm$ gitignore
+-bash: gitignore: command not found
+Juans-MacBook-Air:GitDemoDojo juandhm$ vsdbutil 
+Usage: vsdbutil [-a path] | [-c path ] [-d path] [-i]
+Juans-MacBook-Air:GitDemoDojo juandhm$ vscode
+-bash: vscode: command not found
+Juans-MacBook-Air:GitDemoDojo juandhm$ sudo nano .gitignore
+Password:
+
+  GNU nano 2.0.6              File: .gitignore                        Modified  
+
+target/
+test-output/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
